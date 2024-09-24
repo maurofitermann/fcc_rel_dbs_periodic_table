@@ -1,8 +1,6 @@
 #!/usr/bin/bash
 PATTERN='^[1-9][1-9]*$'
 
-NUMBER=1101
-
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 if [ $# -eq 0 ]
 then
